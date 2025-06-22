@@ -1,0 +1,42 @@
+[
+	{
+		"category" : "Room",
+		"products" : [			
+			{
+				"title": "CADEIRA SEXTAVADA PARA SALA DE JANTAR / MADEIRA MACIÇA",
+				"name": "Chair",
+		    	"price": 42.90,
+		    	"imageQuantity": 4,
+		    	"imagePath": "Room/Chairs/chair"
+			},
+			{
+				"title": "MINI BANCO PP MADEIRA MDF REFORÇADO DE DECORAÇÃO",
+				"name": "Stool",
+		    	"price": 42.90,
+		    	"imageQuantity": 3,
+		    	"imagePath": "Room/Stool/Stool"
+			},
+			{
+				"title": "Mesinhas de canto Pé Palito",
+				"name": "Table",
+				"price": 41.90,
+				"imageQuantity": 1,
+				"imagePath": "Room/Tables"
+			},
+			{
+				"title": "Luminária Coquinho Lustre pendente",
+				"name": "Luminaria",
+				"price": 19.90,
+				"imageQuantity": 1,
+				"imagePath": "Room/luminaria"
+			},
+			{
+				"title": "Mesa dobrável para Decoração",
+				"name": "FoldingTable",
+				"price": 33.90,
+				"imageQuantity": 1,
+				"imagePath": "Room/FoldingTable"
+			}
+		]
+	}
+]

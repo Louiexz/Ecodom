@@ -1,0 +1,42 @@
+[
+	{
+		"category" : "Bathroom",
+		"products" : [
+			{
+				"title": "KIT ESCOVA DE DENTES DE BAMBU ECOLÓGICAS",
+				"name": "BrushTeet",
+			    "price": 23.90,
+			    "imageQuantity": 5,
+			    "imagePath": "Bathroom/BrushTeet/BambuTeetBrush"
+			},
+			{
+				"title": "SABONETEIRA DE MADEIRA DE BAMBU NATURAL PARA BANHEIRO",
+				"name": "SoapDish",
+				"price": 16.90,
+				"imageQuantity": 4,
+				"imagePath": "Bathroom/SoapDish/SoapDish"
+			},
+			{
+				"title": "Bucha natural para banho",
+				"name": "Brush",
+				"price": 9.90,
+				"imageQuantity": 1,
+				"imagePath": "Bathroom/Brush"
+			},
+			{
+				"title": "Kit de Sabonetes naturais",
+				"name": "SoapSet",
+				"price": 25.90,
+				"imageQuantity": 1,
+				"imagePath": "Bathroom/SoapDish/SoapSet"
+			},
+			{
+				"title": "Escova Lava Costas Com Bucha Vegetal",
+				"name": "BackBrush",
+				"price": 12.90,
+				"imageQuantity": 1,
+				"imagePath": "Bathroom/BackBrush"
+			}
+		]
+	}
+]

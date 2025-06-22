@@ -1,0 +1,42 @@
+[
+	{
+		"category" : "Kitchen",
+		"products" : [			
+			{
+				"title": "CONJUNTO DE TALHERES FIBRA DE TRIGO COLHER, GARFO E FACA",
+				"name": "Cutlery",
+		    	"price": 14.90,
+		    	"imageQuantity": 5,
+		    	"imagePath": "Kitchen/Cutlery/Cutlery"
+			},
+			{
+				"title": "COPO BUCKS PARA CAFÉ EM BAMBU, PP 450ML",
+				"name": "BuckCup",
+		    	"price": 10.90,
+		    	"imageQuantity": 4,
+		    	"imagePath": "Kitchen/BuckCup/Cups"
+			},
+			{
+				"title": "Rodo dobrável de pia Cabo de Bambu",
+				"name": "Rod",
+				"price": 24.90,
+				"imageQuantity": 1,
+				"imagePath": "Kitchen/Rod"
+			},
+			{
+				"title": "Bandeja de Bambu Decorativa Cozinha",
+				"name": "Tray",
+				"price": 20.90,
+				"imageQuantity": 1,
+				"imagePath": "Kitchen/Tray"
+			},
+			{
+				"title": "Conjunto Utensílios para Cozinha em madeira",
+				"name": "UtensilSet",
+				"price": 44.00,
+				"imageQuantity": 1,
+				"imagePath": "Kitchen/UtensilSet"
+			}
+		]
+	}
+]

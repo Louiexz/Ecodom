@@ -1,0 +1,91 @@
+.inputs {
+  background-color: #EAE6E6;
+  gap: 30px;
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+  min-width: 100dvw;
+  min-height: 100dvh;
+}
+
+.inputs, #formulario-1 {    
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+}
+
+#formulario-1 {
+  max-width: 100%;
+  width: 100%;
+}
+
+input {
+  text-align: left;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: white !important;
+  color: black !important;
+}
+
+input.valid {
+  border-color: green;
+}
+
+input.invalid {
+  border-color: red;
+}
+
+#links, #check {
+  text-align: center;
+}
+
+#check {
+  span {
+    padding-left: 5px;
+  }
+}
+
+h2, h5, .btn, label, p {
+  color: #374957;
+}
+
+.box-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.btn-link {
+    padding-left: 10px;
+    border: solid 0.1px transparent;
+    background: transparent;
+    color: #3273F1;
+    cursor: pointer;
+}
+.btn {
+    background-color: white;
+    color: #374957;
+    border: solid 0.1px transparent;
+    padding: 7px 35px;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #264059;
+    color: #fff;
+}
+
+.btn:focus {
+  outline: 2px solid #3273F1;
+  outline-offset: 2px;
+}
+
+#botoes {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}

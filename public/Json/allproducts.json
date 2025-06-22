@@ -1,0 +1,118 @@
+[
+	{
+		"category" : "AllProducts",
+		"products" : [
+			{
+				"title": "CONJUNTO DE TALHERES FIBRA DE TRIGO COLHER, GARFO E FACA",
+				"name": "Cutlery",
+				"details": "A saboneteira de madeira em bambu possui um acabamento liso e linhas modernas, a saboneteira adiciona um toque rústico e elegante ao seu banheiro. O design inteligente com ranhuras permite que o sabonete seque completamente entre os usos, evitando a formação de resíduos pegajosos.",
+		    	"price": 14.90,
+		    	"imageQuantity": 5,
+		    	"imagePath": "Kitchen/Cutlery/Cutlery"
+			},
+			{
+				"title": "COPO BUCKS PARA CAFÉ EM BAMBU, PP 450ML",
+				"name": "BuckCup",
+				"details": "O copo de bambu é inovador! Possui um otimo acabamento e textura diferenciado, seu teor de fibras e elevado e por isso possui uma maior durabilidade e resistencia termica adequada, possui Tampa e cinta de silicone. Capacidade: 450ml.",
+		    	"price": 10.90,
+		    	"imageQuantity": 4,
+		    	"imagePath": "Kitchen/BuckCup/Cups"
+			},
+			{
+				"title": "Rodo dobrável de pia Cabo de Bambu",
+				"name": "Rod",
+				"price": 24.90,
+				"imageQuantity": 1,
+				"imagePath": "Kitchen/Rod"
+			},
+			{
+				"title": "Bandeja de Bambu Decorativa Cozinha",
+				"name": "Tray",
+				"price": 20.90,
+				"imageQuantity": 1,
+				"imagePath": "Kitchen/Tray"
+			},
+			{
+				"title": "Conjunto Utensílios para Cozinha em madeira",
+				"name": "UtensilSet",
+				"price": 44.00,
+				"imageQuantity": 1,
+				"imagePath": "Kitchen/UtensilSet"
+			},
+			{
+				"title": "CADEIRA SEXTAVADA PARA SALA DE JANTAR / MADEIRA MACIÇA",
+				"name": "Chair",
+				"details": "Cadeira Sextavada com um design distintivo e moderno adiciona um toque contemporâneo, mas também proporciona conforto. Invista agora para adicionar essas peças únicas ao seu ambiente, elevando o visual com design e conforto!",
+		    	"price": 42.90,
+		    	"imageQuantity": 4,
+		    	"imagePath": "Room/Chairs/chair"
+			},
+			{
+				"title": "MINI BANCO PP MADEIRA MDF REFORÇADO DE DECORAÇÃO",
+				"name": "Stool",
+				"details": "Mini banco de madeira MDF, durável e estiloso, ideal para ambientes internos. Compacto e versátil, serve como assento adicional ou peça decorativa. Fácil de personalizar, perfeito para projetos de bricolagem. Adicione charme e funcionalidade ao seu espaço.",
+		    	"price": 42.90,
+		    	"imageQuantity": 3,
+		    	"imagePath": "Room/Stool/Stool"
+			},
+			{
+				"title": "Mesinhas de canto Pé Palito",
+				"name": "Table",
+				"price": 41.90,
+				"imageQuantity": 1,
+				"imagePath": "Room/Tables"
+			},
+			{
+				"title": "Luminária Coquinho Lustre pendente",
+				"name": "Luminaria",
+				"price": 19.90,
+				"imageQuantity": 1,
+				"imagePath": "Room/luminaria"
+			},
+			{
+				"title": "Mesa dobrável para Decoração",
+				"name": "FoldingTable",
+				"price": 33.90,
+				"imageQuantity": 1,
+				"imagePath": "Room/FoldingTable"
+			},
+			{
+				"title": "KIT ESCOVA DE DENTES DE BAMBU ECOLÓGICAS",
+				"name": "BrushTeet",
+				"details" : "Escovas de bambu, material de ótima qualidade com cerdas agradavéis ao toque, possui estilo único. Proporcionando grande conforto, será uma aliada na sua higiene bucal, a melhor escolha para preservação do meio ambiente e autocuidado.",
+			    "price": 23.90,
+			    "imageQuantity": 5,
+			    "imagePath": "Bathroom/BrushTeet/BambuTeetBrush"
+			},
+			{
+				"title": "SABONETEIRA DE MADEIRA DE BAMBU NATURAL PARA BANHEIRO",
+				"name": "SoapDish",
+				"details": "A saboneteira de madeira em bambu possui um acabamento liso e linhas modernas, a saboneteira adiciona um toque rústico e elegante ao seu banheiro. O design inteligente com ranhuras permite que o sabonete seque completamente entre os usos, evitando a formação de resíduos pegajosos.",
+				"price": 16.90,
+				"imageQuantity": 4,
+				"imagePath": "Bathroom/SoapDish/SoapDish"
+			},
+			{
+				"title": "Bucha natural para banho",
+				"name": "Brush",
+				"price": 9.90,
+				"imageQuantity": 1,
+				"imagePath": "Bathroom/Brush"
+			},
+			{
+				"title": "Kit de Sabonetes naturais",
+				"name": "SoapSet",
+				"price": 25.90,
+				"imageQuantity": 1,
+				"imagePath": "Bathroom/SoapDish/SoapSet"
+			},
+			{
+				"title": "Escova Lava Costas Com Bucha Vegetal",
+				"name": "BackBrush",
+				"price": 12.90,
+				"imageQuantity": 1,
+				"imagePath": "Bathroom/BackBrush"
+			}
+		]
+	}
+]

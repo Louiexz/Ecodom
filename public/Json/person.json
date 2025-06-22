@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Robson",
+    "post": "Adorei o produto. São perfeitos para <br> meu dia a dia e ainda contribuo para <br> um mundo melhor.",
+    "imagePath": "assets/images/Person/robson"
+  },
+  {
+    "name": "Nathalia",
+    "post": "Muito feliz com a qualidade do material do produto, <br>bastante resistente e sofisticado. Com certeza <br>não será minha ultima compra. Indico demais!",
+    "imagePath": "assets/images/Person/nathalia"
+  },
+  {
+    "name": "Sarah",
+    "post": "Talheres de alta qualidade e com um design <br> incrível. Saber que são sustentáveis me faz <br> sentir ainda melhor ao usá-los.",
+    "imagePath": "assets/images/Person/sarah"
+  },
+  {
+    "name": "Osmar",
+    "post": "Adorei! Nota mil. Estou muito feliz em poder contar e <br> opitar por uma aquisição da qual se importa com o meio<br>ambiente. Podem comprar sem medo.",
+    "imagePath": "assets/images/Person/osmar"
+  }
+]
