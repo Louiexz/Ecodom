@@ -1,7 +1,12 @@
+section {
+    background-color: #EDF4F6;
+    border-radius: 4px;
+    color: #374957;
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 10px;
 }
 
 #carrinho, #compras, .produto, .info-detalhes, .valores-info, .caixa-radio {
@@ -11,14 +16,9 @@
 #carrinho {
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: unset;
     justify-content: space-around;
+    align-items: flex-start;
     padding-bottom: 3rem;
-}
-section {
-    background-color: #EDF4F6;
-    border-radius: 4px;
-    color: #374957;
 }
 #compras, #resumo-compra {
     border-radius: 20px;
@@ -43,6 +43,7 @@ section {
   img {
       width: 100%;
       height: 250px;
+      object-fit: cover;
       background-color: #efe4d0;  
       border: solid 0.1px black;
     }
@@ -63,7 +64,12 @@ section {
   box-shadow: 0px 1px 10px #264059;
 }
 .produto-info {
-    padding: 20px;
+    padding: 10px;
+
+    h5 {
+        height: 50px;
+        overflow: hidden;
+    }
 }
 .info-detalhes {
     gap: 20px;
@@ -103,6 +109,7 @@ section {
     }
 }
 #resumo-compra {
+    padding: 2rem;
     height: 1%;
     text-align: center;
 
@@ -133,24 +140,24 @@ section {
     display: flex;
     border: solid black 1.2px;
     border-radius: 20px;
-    width: 50%;
-    height: 40px;
-    gap: 5px;
-    align-items: center;
-    justify-content: center;
+    width: 6rem;
     overflow: hidden;
+    padding: 5px;
 
-    .diminuir, .aumentar {
+    span {
         cursor: pointer;
         width: 100%;
         height: 100%;
-        padding: 3px 15px !important;
+        padding: 0px 5px !important;
     }
     .diminuir:hover, .aumentar:hover {
         background-color: #eeeeee;
     }
 }
 @media (max-width: 4000px ) {
+    .quantity {
+        padding: 3px 5px;
+    }
     section {
         padding: 2% 3%;
     }
@@ -159,6 +166,7 @@ section {
     }
     #carrinho {
         padding: 10rem 3%;
+        gap: 20px;
     }
 }
 @media (max-width: 1920px ) {
@@ -214,25 +222,39 @@ section {
       grid-template-columns: repeat(2, 1fr);
     }
     .quantity {
-        width: 30%;
+        width: 5rem;
     }
 }
 @media (max-width: 600px) {
+    * {
+        font-size: 0.8rem;
+    }
+    section {
+        padding: 10px;
+        max-width: 95dvw;
+    }
     .grid {      
       grid-template-columns: repeat(1, 1fr);
     }
     .produto {
         flex-direction: row;
+        max-width: 90dvw;
 
         img {
-            width: 200px;
+            min-height: 100%;
+            width: 11rem;
         }
     }
     .produto-info {
         padding: 10px;
     }
-    #compras span, .diminuir, .aumentar {
+    #compras span {
         padding: 1px;
+    }
+    .quantity {
+        span {
+            padding: 6px 5px !important;
+        }
     }
     .radio-info {
         left: -3vw;

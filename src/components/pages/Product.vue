@@ -2,50 +2,54 @@
   <main id="container">
     <section class="Painel">  
       <div class="produtoEscolhido">
-        <img class="principal" :id="`${product.name}1`" :src="mainImageSrc" :alt="`${product.name} 1`">
-        <ul class="miniaturas">
-          <div
-            v-for="quantity in product.imageQuantity"
-            :key="product.name + (quantity + 1)"
-          >
-            <img
-              v-if="quantity != 1"
-              class="menorDestaque"
-              :src="getThumbnailSrc(quantity)"
-              :alt="`${product.name} ${quantity}`"
-              :id="`${product.name}${quantity}`"
-              @click="changeMainImage(`${product.name}${quantity}`)"
-            />
+        <div id="produtoChoiced">
+          <div id="productImages">
+            <img class="principal" :id="`${product.name}1`" :src="mainImageSrc" :alt="`${product.name} 1`">
+            <ul class="miniaturas">
+              <div
+                v-for="quantity in product.imageQuantity"
+                :key="product.name + (quantity + 1)"
+              >
+                <img
+                  v-if="quantity != 1"
+                  class="menorDestaque"
+                  :src="getThumbnailSrc(quantity)"
+                  :alt="`${product.name} ${quantity}`"
+                  :id="`${product.name}${quantity}`"
+                  @click="changeMainImage(`${product.name}${quantity}`)"
+                />
+              </div>
+            </ul>
+          </div>  
+          <div class="esposicao">
+            <h1><strong>{{ product.title }}</strong></h1>
+            <div class="valores-info">
+            <h2><strong>R$ {{ product.price * product.quantity }}</strong></h2>
+            <span class="parcela-info">
+              ou <b>2x </b>de <b>{{ formatCurrency(product.price * product.quantity / 2) }}</b> sem juros
+            </span>
           </div>
-        </ul>
-      </div>
-      <div class="esposição">
-        <h1><strong>{{ product.title }}</strong></h1>
-        <div class="valores-info">
-        <h2><strong>R$ {{ product.price * product.quantity }}</strong></h2>
-        <span class="parcela-info">
-          ou <b>2x </b>de <b>{{ formatCurrency(product.price * product.quantity / 2) }}</b> sem juros
-        </span>
-      </div>
-        <span id="gray">quantidade</span>
-        <div class="botoes">
-          <div class="btn-qty">          
-            <button class="menos" @click="diminuirQuantity(product)" :disabled="product.quantity <= 1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
-              </svg>
-            </button>
-            <span>{{ product.quantity }}</span>
-            <button class="mais" @click="aumentarQuantity(product)" :disabled="product.quantity >= 10">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
-              </svg>
-            </button>
+          <span id="gray">quantidade</span>
+          <div class="botoes">            
+            <div class="btn-qty">          
+              <button class="menos" @click="diminuirQuantity(product)" :disabled="product.quantity <= 1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                </svg>
+              </button>
+              <span>{{ product.quantity }}</span>
+              <button class="mais" @click="aumentarQuantity(product)" :disabled="product.quantity >= 10">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                </svg>
+              </button>
+            </div>
+            <router-link to="/cart" class="linkagem">
+              <button class="btn-comprar" @click.prevent="toggleCart(product)">Comprar</button>
+            </router-link>
           </div>
-          <router-link to="/cart" class="linkagem">
-            <button class="btn-comprar" @click.prevent="toggleCart(product)">Comprar</button>
-          </router-link>
         </div>
+      </div>        
       </div>
     </section>
     <section class="descricoes">
@@ -63,7 +67,7 @@
     <section class="avaliacoes">
       <div class="avaliacao">
         <h1><strong>Avaliações</strong></h1>
-        <div class="container">
+        <div id="containerAvaliacao">
           <div class="comentario">
             <img src="/assets/images/Person/robson.png" alt="">
             <div class="profile">

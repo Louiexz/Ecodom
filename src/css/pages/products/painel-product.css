@@ -1,21 +1,30 @@
 #container {
-  padding:  0px 6dvw;
+  padding: 3rem 5%;
 
-  .catalog {
-    padding: 40px 0px;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 
   img {
     background-color: #efe4d0;
   }
 }
 
+#produtoChoiced {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#productImages {
+  gap: 10px;
+}
+
 .Painel {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  margin-top: 250px;
-  justify-content: center;
+  padding-top: 8rem;
   color: #264059;
 }
 
@@ -24,20 +33,17 @@
   flex-direction: column;
 }
 
-.principal,
-a {
+.principal, a {
   width: 100%;
   max-width: 450px;
   height: auto;
-  margin-bottom: 10px;
   border: 1px solid #264059;
 }
 
 .miniaturas {
   display: flex;
-   gap: 10px; 
+  gap: 10px; 
   padding: 15px;
-  justify-content: center;
 }
 
 .menorDestaque {
@@ -52,24 +58,23 @@ a {
   transition: 0.3s;
   transform: scale(1.1);
 }
-.esposição {
+.esposicao {
   display: flex;
   flex-direction: column;
-  margin: 20px;
   align-items: flex-start;
   text-align: start;
   margin: 0px;
   flex-wrap: wrap;
 }
 
-.esposição h1 {
+.esposicao h1 {
   width: 100%;
   max-width: 700px;
   margin-top: 0;
   font-size: 22px;
 }
 
-.esposição p {
+.esposicao p {
   margin-top: 0;
   position: relative;
 }
@@ -149,17 +154,27 @@ a {
   background: #ddd;
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+  .principal {
+    max-width: 340px;
+  }
+  .menorDestaque {
+    max-width: 65px;
+  }
+  .miniaturas {
+    align-items: center;
+  }
+  #container {
+    padding: 8rem 15px;
+  }
   .Painel {
     flex-direction: column;
-    padding: 15px;
+    padding: 0px;
   }
 
-  .esposição {
+  .esposicao {
     align-items: flex-start;
     text-align: left;
-    margin: 0px;
     flex-wrap: wrap;
   }
 }

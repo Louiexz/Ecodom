@@ -1,10 +1,11 @@
 .inputs {
   background-color: #EAE6E6;
   gap: 30px;
-  padding-top: 10rem;
   padding-bottom: 1rem;
   min-width: 100dvw;
   min-height: 100dvh;
+  padding: 3rem;  
+  padding-top: 10rem;
 }
 
 .inputs, #formulario-1 {    
